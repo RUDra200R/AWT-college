@@ -30,6 +30,17 @@
         })
         btn2.addEventListener("click", ()=>{
             setInterval(a);
+             var a =setInterval(()=>{
+
+            Tbody.style.backgroundColor = color[i]; 
+            ++i;
+
+            if(i==color.length)
+            {
+                i=0;
+            }
+
+        }, 200);
         })
 
 
