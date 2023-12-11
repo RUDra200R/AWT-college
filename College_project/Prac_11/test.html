@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time_interval</title>
+</head>
+<body id="mybody">
+   <input type="button" value="stop" id="btn1">
+   <input type="button" value="start" id="btn2">
+    <script>
+        var color = ["Red", "Blue","orange","Green", "yellow"];
+        var Tbody=document.getElementById("mybody");
+        var btn1=document.getElementById("btn1");
+        var btn2=document.getElementById("btn2");
+        i=0;
+        var a =setInterval(()=>{
+
+            Tbody.style.backgroundColor = color[i]; 
+            ++i;
+
+            if(i==color.length)
+            {
+                i=0;
+            }
+
+        }, 200);
+        btn1.addEventListener("click",()=>{
+            clearInterval(a);
+        })
+        btn2.addEventListener("click", ()=>{
+            setInterval(a);
+            var a =setInterval(()=>{
+
+Tbody.style.backgroundColor = color[i]; 
+++i;
+
+if(i==color.length)
+{
+    i=0;
+}
+
+}, 200);
+
+        })
+
+
+    </script>
+</body>
+</html>

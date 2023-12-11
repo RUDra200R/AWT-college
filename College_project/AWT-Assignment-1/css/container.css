@@ -1,0 +1,58 @@
+.text{
+    text-align: center;
+
+}
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+.details-container{
+    font-size: large;
+}
+footer p {
+    text-align: center;
+  }
+.container1{
+  display: inline-flex;
+  height: 100 vh;
+  gap: 200px;
+  grid-template-columns: 1 fr 1fr 1.5 fr;
+  grid-template-rows: 1fr 1fr;
+  margin: auto 0;
+  justify-content:center ;
+   margin: 25%;
+   margin-top: 0;
+   margin-bottom: 0;
+
+}
+.skills1{
+  width: 100%;
+}
+.skills2{
+  width: 100%;
+
+}
+#socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 10rem;
+}
+
+/* ICONS */
+
+.icon {
+  cursor: pointer;
+  height: 8rem;
+}
+
+.details-container{
+  padding-left: 50px;
+}
+.text-container{
+  padding-left: 50px;
+}
+.container{
+  padding-left: 20px;
+}
