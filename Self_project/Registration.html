@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        div{
+            border: 3px solid black;
+            border-radius: 35px;
+            padding-left: 35px;
+            margin-right: 35%;
+            margin-left: 35%;
+            background: rgb(199, 244, 252);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form id="form1">
+            <h1 id="heading">Registration With us!!</h1>
+            <!-- First name -->
+            <label for="fname">First_Name:*</label><br>
+            <input type="text" id="fname" placeholder="Enter your first name:" required>
+            <br>
+            <br>
+
+            <!-- Last name -->
+            <label for="lname">Last_Name:*</label><br>
+            <input type="text" id="lname" placeholder="Enter your last name:" required>
+            <br>
+            <br>
+
+            <!-- contact number -->
+            <label for="mobile">Mobile_No:*</label><br>
+            <input type="text" id="mobile" placeholder="Enter mobile number" required>
+            <br>
+            <br>
+
+            <!-- email name -->
+            <label for="email">Email:*</label><br>
+            <input type="Email" id="email" placeholder="Enter your email_Id" required>
+            <br>
+            <br>
+
+            <!-- password name -->
+            <label for="pass">Password:*</label><br>
+            <input type="password" id="pass" placeholder="Enter your password" required>
+            <br>
+            <br>
+            <!-- Gender -->
+            <label for="gender">Gender</label><br>
+             Male:<input type="radio" id="gender" name="Gender">
+            Female:<input type="radio" id="gender" name="Gender">
+            <br>
+            <br>
+
+            <!-- city -->
+            <label for="city">City</label>
+            <select id="city">
+                <option value="ahmedabad">ahmedabad</option>
+                <option value="surat">surat</option>
+                <option value="baroda">baroda</option>
+            </select>
+            <br>
+            <br>
+
+            <!-- submit -->
+            <label for="submit">SUBMIT:</label><br>
+            <input type="submit" name="submit" id="submit">
+            <br><br>
+            <!-- reset -->
+            <label for="reset">RESET</label><br>
+            <input type="reset">
+            <br>
+            <br>
+        </form>
+    </div>
+    
+</body>
+</html>
